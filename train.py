@@ -256,13 +256,6 @@ for hidden_size in config.HIDDEN_SIZES:
     logging.info(f'#目前最佳參數:\n-train:{best_train_model}\n-val:{best_val_model}\n')
 logging.info(f'----最佳隱藏層神經元數量: train={best_train_hidden_size}, val={best_val_hidden_size}')
 
-plt.figure(figsize=(12, 6))
-plt.boxplot(results)
-plt.xlabel('Hidden Layer Size')
-plt.ylabel('Loss')
-plt.title('Model Performance for Different Hidden Layer Sizes')
-plt.savefig('Model Performance for Different Hidden Layer Sizes.png')
-
 best_val_model.forward(X_test)
 y_pred = best_val_model.output
 y_test_inv = y_test.get().reshape(-1, 1).flatten()
@@ -298,11 +291,3 @@ plt.xlabel('Error')
 plt.ylabel('Frequency')
 plt.title(f'Error Histogram (Hidden Size: {best_val_hidden_size})')
 plt.savefig('Error Histogram (val).png')
-
-mean_losses = [np.mean(losses) for losses in results]
-plt.figure(figsize=(12, 6))
-plt.plot(config.HIDDEN_SIZES, mean_losses, marker='o')
-plt.xlabel('Number of Hidden Layer Neurons')
-plt.ylabel('Mean Squared Error')
-plt.title('Hidden Layer Size vs. MSE')
-plt.savefig('Hidden Layer Size vs MSE')
