@@ -65,7 +65,7 @@
    ```bash
    pip install cupy-rocm-4-3
    ```
-   請確保你的環境符合<https://pypi.org/project/cupy/>中描述的需求
+   請確保你的環境符合<https://docs.cupy.dev/en/stable/install.html>中描述的需求
    
 ### 使用pip安裝其餘所需的模組：
 
