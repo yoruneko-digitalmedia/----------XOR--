@@ -1,0 +1,100 @@
+2024-06-10 20:06:17,540 - INFO - Loading existing dataset from dataset.csv
+2024-06-10 20:06:17,633 - INFO - Config:
+  LEARNING_RATE=0.1
+  EPOCHS=100
+  BATCH_SIZE=16
+  NUM_SAMPLES=16384
+  MIN_RANGE=2
+  MAX_RANGE=2
+  HIDDEN_SIZES=[2]
+  ROUNDS=30
+  PATIENCE=50
+
+2024-06-10 20:06:17,634 - INFO - ----Hidden_size 2:
+2024-06-10 20:06:17,634 - INFO - Round(1/30)
+2024-06-10 20:07:24,373 - INFO - >>early stopped at epoch 59	| train loss=0.006833788761371626, val loss=0.007348551180775259
+2024-06-10 20:07:24,374 - INFO - Model saved to best_val_model.npz
+2024-06-10 20:07:24,374 - INFO - Model saved to best_train_model.npz
+2024-06-10 20:07:24,375 - INFO - Round(2/30)
+2024-06-10 20:08:31,518 - INFO - >>early stopped at epoch 59	| train loss=0.00683398199881261, val loss=0.007350764675167159
+2024-06-10 20:08:31,518 - INFO - Round(3/30)
+2024-06-10 20:10:23,766 - INFO - >>training completed		| train loss=0.001974448095836654, val loss=0.002302791868570089
+2024-06-10 20:10:23,767 - INFO - Model saved to best_val_model.npz
+2024-06-10 20:10:23,767 - INFO - Model saved to best_train_model.npz
+2024-06-10 20:10:23,767 - INFO - Round(4/30)
+2024-06-10 20:11:30,474 - INFO - >>early stopped at epoch 59	| train loss=0.006789721020641726, val loss=0.007308788535761681
+2024-06-10 20:11:30,474 - INFO - Round(5/30)
+2024-06-10 20:13:23,102 - INFO - >>training completed		| train loss=0.001975069129003632, val loss=0.00230178155088706
+2024-06-10 20:13:23,103 - INFO - Model saved to best_val_model.npz
+2024-06-10 20:13:23,103 - INFO - Round(6/30)
+2024-06-10 20:14:30,003 - INFO - >>early stopped at epoch 59	| train loss=0.006788095700396262, val loss=0.007308006614726219
+2024-06-10 20:14:30,003 - INFO - Round(7/30)
+2024-06-10 20:15:37,164 - INFO - >>early stopped at epoch 59	| train loss=0.006833417626244537, val loss=0.00735010765075576
+2024-06-10 20:15:37,164 - INFO - Round(8/30)
+2024-06-10 20:17:30,400 - INFO - >>training completed		| train loss=0.001974403816273378, val loss=0.0023026873595656905
+2024-06-10 20:17:30,401 - INFO - Model saved to best_train_model.npz
+2024-06-10 20:17:30,401 - INFO - Round(9/30)
+2024-06-10 20:18:38,212 - INFO - >>early stopped at epoch 60	| train loss=0.0068401484376505875, val loss=0.007360782749825604
+2024-06-10 20:18:38,212 - INFO - Round(10/30)
+2024-06-10 20:19:44,186 - INFO - >>early stopped at epoch 58	| train loss=0.006752229271003107, val loss=0.007268120371956742
+2024-06-10 20:19:44,186 - INFO - Round(11/30)
+2024-06-10 20:20:50,091 - INFO - >>early stopped at epoch 59	| train loss=0.006834942830668097, val loss=0.007352438351465875
+2024-06-10 20:20:50,091 - INFO - Round(12/30)
+2024-06-10 20:21:55,258 - INFO - >>early stopped at epoch 59	| train loss=0.0068387636906270454, val loss=0.007359143307366846
+2024-06-10 20:21:55,258 - INFO - Round(13/30)
+2024-06-10 20:23:00,876 - INFO - >>early stopped at epoch 58	| train loss=0.006760805740884736, val loss=0.007275500441346505
+2024-06-10 20:23:00,876 - INFO - Round(14/30)
+2024-06-10 20:24:52,158 - INFO - >>training completed		| train loss=0.0019739340531739935, val loss=0.0023027649186756712
+2024-06-10 20:24:52,159 - INFO - Model saved to best_train_model.npz
+2024-06-10 20:24:52,159 - INFO - Round(15/30)
+2024-06-10 20:25:56,884 - INFO - >>early stopped at epoch 59	| train loss=0.0068335554629617, val loss=0.007350093628762105
+2024-06-10 20:25:56,884 - INFO - Round(16/30)
+2024-06-10 20:27:47,230 - INFO - >>training completed		| train loss=0.001973873008733654, val loss=0.0023028764153037663
+2024-06-10 20:27:47,230 - INFO - Model saved to best_train_model.npz
+2024-06-10 20:27:47,231 - INFO - Round(17/30)
+2024-06-10 20:28:54,429 - INFO - >>early stopped at epoch 59	| train loss=0.006837750958036312, val loss=0.0073524941710966
+2024-06-10 20:28:54,430 - INFO - Round(18/30)
+2024-06-10 20:30:00,374 - INFO - >>early stopped at epoch 59	| train loss=0.0068442335698397855, val loss=0.007362455408398856
+2024-06-10 20:30:00,374 - INFO - Round(19/30)
+2024-06-10 20:31:06,471 - INFO - >>early stopped at epoch 59	| train loss=0.006837219700802762, val loss=0.007355549751917428
+2024-06-10 20:31:06,471 - INFO - Round(20/30)
+2024-06-10 20:32:11,414 - INFO - >>early stopped at epoch 59	| train loss=0.006826662103090443, val loss=0.007342622526474913
+2024-06-10 20:32:11,414 - INFO - Round(21/30)
+2024-06-10 20:33:17,496 - INFO - >>early stopped at epoch 59	| train loss=0.0068309659073998025, val loss=0.0073488884564080065
+2024-06-10 20:33:17,496 - INFO - Round(22/30)
+2024-06-10 20:34:24,171 - INFO - >>early stopped at epoch 59	| train loss=0.006812260294438589, val loss=0.007330527419665024
+2024-06-10 20:34:24,172 - INFO - Round(23/30)
+2024-06-10 20:35:30,078 - INFO - >>early stopped at epoch 58	| train loss=0.006770466454341106, val loss=0.007288827003984598
+2024-06-10 20:35:30,078 - INFO - Round(24/30)
+2024-06-10 20:37:22,205 - INFO - >>training completed		| train loss=0.001974017512436943, val loss=0.0023034435434057094
+2024-06-10 20:37:22,205 - INFO - Round(25/30)
+2024-06-10 20:38:27,121 - INFO - >>early stopped at epoch 59	| train loss=0.006834105158584333, val loss=0.007348246803492557
+2024-06-10 20:38:27,122 - INFO - Round(26/30)
+2024-06-10 20:39:32,048 - INFO - >>early stopped at epoch 59	| train loss=0.006832090110642675, val loss=0.007349781400353477
+2024-06-10 20:39:32,048 - INFO - Round(27/30)
+2024-06-10 20:40:36,755 - INFO - >>early stopped at epoch 59	| train loss=0.006832860339963154, val loss=0.007350073897610526
+2024-06-10 20:40:36,755 - INFO - Round(28/30)
+2024-06-10 20:41:42,926 - INFO - >>early stopped at epoch 58	| train loss=0.006746578687327122, val loss=0.007263937438582981
+2024-06-10 20:41:42,926 - INFO - Round(29/30)
+2024-06-10 20:42:49,223 - INFO - >>early stopped at epoch 59	| train loss=0.0068358368497822355, val loss=0.0073541342599743546
+2024-06-10 20:42:49,223 - INFO - Round(30/30)
+2024-06-10 20:43:54,503 - INFO - >>early stopped at epoch 59	| train loss=0.006831850872412934, val loss=0.00734984096387489
+2024-06-10 20:43:54,504 - INFO - #目前最低損失: train=0.001973873008733654, val=0.00230178155088706
+2024-06-10 20:43:54,504 - INFO - #目前最佳隱藏層神經元數量: train=2, val=2
+2024-06-10 20:43:54,504 - INFO - #目前最佳參數:
+-train:
+W1=[[ 31.48642907 -31.55102422]
+ [ 31.85788805 -32.29306975]]
+b1=[[-21.06376829]
+ [ 21.81776264]]
+W2=[[ 0.49700123 -0.49296899]]
+b2=[[0.99183012]]
+-val:
+W1=[[-31.81303871  32.24152381]
+ [-31.28940674  31.35121644]]
+b1=[[-21.78574733]
+ [ 20.92673204]]
+W2=[[ 0.4928445 -0.4969887]]
+b2=[[0.99187312]]
+
+2024-06-10 20:43:54,505 - INFO - ----最佳隱藏層神經元數量: train=2, val=2
