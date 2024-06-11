@@ -3,24 +3,28 @@
 ## 專案概述
 
 此專案訓練一個淺層類神經網絡來預測兩個隨機生成值的XOR運算結果。
+
+輸入的範圍落在[-0.5, 0.2]或[0.8, 1.5]兩個區塊中，詳細的資料分布視覺化呈現請查看`datset distrubute graph.png`
+
 模型使用反向傳播進行訓練，並且無使用任何的模型套件建立客製化類神經網路模型，並借助CuPy進行GPU加速。
 
 ## 目錄結構
-
-- `Actual vs Predicted Values.png`：比較實際值和預測值的可視化圖。
-- `train.py`：包含神經網絡實現和訓練邏輯的主腳本。
-- `Best Model Predictions vs True Values (train).png`：訓練數據集中最佳模型預測值與真實值的可視化圖。
-- `Best Model Predictions vs True Values (val).png`：驗證數據集中最佳模型預測值與真實值的可視化圖。
-- `best_train_model.npz`：最佳訓練模型的權重。
-- `best_val_model.npz`：最佳驗證模型的權重。
-- `dataset.csv`：包含訓練和驗證數據集的CSV文件。
-- `Error Histogram (val).png`：驗證數據集的誤差直方圖。
-- `Learning Curve (train).png`：訓練數據集的學習曲線。
-- `Learning Curve (val).png`：驗證數據集的學習曲線。
-- `log.txt`：包含詳細訓練日誌的日誌文件。
-- `scaler_x0_scale.npy`，`scaler_x0_mean.npy`，`scaler_x1_scale.npy`，`scaler_x1_mean.npy`：包含輸入特徵和目標變量縮放參數的Numpy文件。
-- `Test model.ipynb`：測試訓練模型的Jupyter notebook。
-
+```
+├── Actual vs Predicted Values.png：比較實際值和預測值的可視化圖。
+├── train.py：包含神經網絡實現和訓練邏輯的主腳本。
+├── Best Model Predictions vs True Values (train).png：訓練數據集中最佳模型預測值與真實值的可視化圖。
+├── Best Model Predictions vs True Values (val).png：驗證數據集中最佳模型預測值與真實值的可視化圖。
+├── best_train_model.npz：最佳訓練模型的權重。
+├── best_val_model.npz：最佳驗證模型的權重。
+├── dataset.csv：包含訓練和驗證數據集的CSV文件。
+├── datset distrubute graph.png：一張呈現dataset.csv資料分布的圖片。
+├── Error Histogram (val).png：驗證數據集的誤差直方圖。
+├── Learning Curve (train).png：訓練數據集的學習曲線。
+├── Learning Curve (val).png：驗證數據集的學習曲線。
+├── log.txt：包含詳細訓練日誌的日誌文件。
+├── scaler_x0_scale.npy，scaler_x0_mean.npy，scaler_x1_scale.npy，scaler_x1_mean.npy：包含輸入特徵和目標變量縮放參數的Numpy文件。
+└──Test model.ipynb：測試訓練模型的Jupyter notebook。
+```
 ## 安裝
 
 運行此專案需要安裝以下依賴項：
